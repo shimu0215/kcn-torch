@@ -17,6 +17,14 @@ The model works with datasets in the `SpatialDataset` format. In particular, it 
 * `dataset.y`: a tensor with shape `[n, l]`, each row is a vector of `l` labels of an instance. The current example only work for one-dimensional continuous labels.    
 
 The current repo provides a running example of KCN on a dataset of bird counts (counts of wood thrush reported in Eeatern US during June 2014) [[download link](https://tufts.box.com/v/kcn-bird-count-dataset)]. 
+
+#### Experiments
+This experiment runs example of KCN on the aforementioned bird counts data set.
+| Model | Result | 
+| :------ |:--- | 
+| GCN |  0.46±0.01 |
+| GAT |  0.45±0.01 |
+| GraphSAGE |  0.45±0.01 |
   
 ### Model
 
