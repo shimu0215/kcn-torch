@@ -20,9 +20,9 @@ The current repo provides a running example of KCN on a dataset of bird counts (
 
 #### Experiments
 This experiment runs example of KCN on the aforementioned bird counts data set. Performances are measured by the mean squared error.
-| Model | Kriging   | RF        | GCN       | GraphSAGE |KCN       | KCN-att   | KCN-sage  |
-| :---- | :-------- | :-------- | :-------- | :-------- |:-------- | :-------- | :-------- |
-| Result| 1.56±0.85 | 0.68±0.03 | 0.70±0.02 | 0.53±0.01 |0.46±0.01 | 0.45±0.01 | 0.45±0.01 |
+| Model | Kriging   | RF        | GCN       || GraphSAGE |KCN       | KCN-att   | KCN-sage  |
+| :---- | :-------- | :-------- | :-------- || :-------- |:-------- | :-------- | :-------- |
+| Result| 1.56±0.85 | 0.68±0.03 | 0.70±0.02 || 0.53±0.01 |0.46±0.01 | 0.45±0.01 | 0.45±0.01 |
   
 ### Model
 
