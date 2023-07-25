@@ -20,11 +20,9 @@ The current repo provides a running example of KCN on a dataset of bird counts (
 
 #### Experiments
 This experiment runs example of KCN on the aforementioned bird counts data set.
-| Model | Result | 
-| :------ |:--- | 
-| GCN |  0.46±0.01 |
-| GAT |  0.45±0.01 |
-| GraphSAGE |  0.45±0.01 |
+| Model | GCN       | GAT       | GraphSAGE |
+| :---- | :-------- | :-------- | :-------- |
+| Result| 0.46±0.01 | 0.45±0.01 | 0.45±0.01 |
   
 ### Model
 
