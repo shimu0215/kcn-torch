@@ -19,10 +19,10 @@ The model works with datasets in the `SpatialDataset` format. In particular, it 
 The current repo provides a running example of KCN on a dataset of bird counts (counts of wood thrush reported in Eeatern US during June 2014) [[download link](https://tufts.box.com/v/kcn-bird-count-dataset)]. 
 
 #### Experiments
-This experiment runs example of KCN on the aforementioned bird counts data set.
-| Model | GCN       | GAT       | GraphSAGE |
-| :---- | :-------- | :-------- | :-------- |
-| Result| 0.46±0.01 | 0.45±0.01 | 0.45±0.01 |
+This experiment runs example of KCN on the aforementioned bird counts data set. Performances are measured by the mean squared error.
+| Model | Kriging   | RF        | GCN       | GraphSAGE |KCN       | KCN-att   | KCN-sage  |
+| :---- | :-------- | :-------- | :-------- | :-------- |:-------- | :-------- | :-------- |
+| Result| 1.56±0.85 | 0.68±0.03 | 0.70±0.02 | 0.53±0.01 |0.46±0.01 | 0.45±0.01 | 0.45±0.01 |
   
 ### Model
 
